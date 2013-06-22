@@ -3,7 +3,7 @@
 ;(function(){ // wrapper in case we're in module_context mode
     var program = require('commander'),
         pack = require('../package.json'),
-        errorHandler = require('../lib/utils/errorHandler');
+        errorHandler = require('../lib/helpers/errorHandler');
 
     process.title = "weyland"
     process.on("uncaughtException", errorHandler);
