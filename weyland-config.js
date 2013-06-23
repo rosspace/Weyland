@@ -1,16 +1,16 @@
 exports.config = function(weyland) {
     weyland.build('main')
-        .workingDirectory('C:/Users/Rob/Documents/GitHub/Durandal/platforms/Microsoft.NET/Samples/Durandal.Samples/App')
+        .workingDirectory('C:/Users/Rob/Documents/GitHub/Durandal/platforms/Microsoft.NET/Samples/Durandal.Samples')
         .task.jshint({
-            include:'**/*.js',
+            include:'App/**/*.js',
             stopOnErrors:false,
             options:undefined,
             globals:undefined
         })
         .task.uglifyjs({
-            include:'**/*.js'
+            include:'App/**/*.js'
         })
         .task.rjs({
-            include:'**/*.{js,html}'
+            include:'App/**/*.{js,html}'
         });
 }
