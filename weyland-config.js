@@ -5,14 +5,14 @@ exports.config = function(weyland) {
             include:'App/**/*.js'
         })
         .task.uglifyjs({
-            include:'App/**/*.js'
+            include:['App/**/*.js', 'Scripts/durandal/**/*.js']
         })
         .task.rjs({
-            include:'App/**/*.{js,html}',
+            include:['App/**/*.{js,html}', 'Scripts/durandal/**/*.js'],
             viewPlugin:'text',
             viewPluginExtension:'.html',
             rjs:{
-                name:'../Scripts/almond-custom', //for require use the build's name
+                name:'../Scripts/almond-custom', //to deply with require.js, use the build's name instead
                 baseUrl : 'App',
                 mainConfigFile:'App/main', //not needed for require
                 wrap:true, //not needed for require
