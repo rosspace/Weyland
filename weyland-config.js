@@ -10,11 +10,12 @@ exports.config = function(weyland) {
         .task.rjs({
             include:['App/**/*.{js,html}', 'Scripts/durandal/**/*.js'],
             viewPlugin:'text',
-            viewPluginExtension:'.html',
+            viewExtension:'.html',
             rjs:{
-                name:'../Scripts/almond-custom', //to deply with require.js, use the build's name instead
+                name:'../Scripts/almond-custom', //to deploy with require.js, use the build's name here instead
+                insertRequire:['main'], //not needed for require
                 baseUrl : 'App',
-                mainConfigFile:'App/main', //not needed for require
+                mainConfigFile:'App/main.js', //not needed for require
                 wrap:true, //not needed for require
                 paths : {
                     'text': '../Scripts/text',
