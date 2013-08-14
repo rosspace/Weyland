@@ -8,6 +8,13 @@ Weyland is Durandal's build optimizer.
 * JS Minification
 * RequireJS Optimization
 
+## Usage
+
+1. Install NodeJS and NPM
+2. On the command line execute `npm install -g weyland`
+3. Navigate into your web project and place a weyland-config file at the root.
+4. From your project directory execute `weyland build`
+
 ## Documentation
 
 All the documentation is located on [the official site](http://durandaljs.com/), so have a look there for help on how to [get started](http://durandaljs.com/pages/get-started/), [read tutorials](http://durandaljs.com/pages/docs/), [view sample descriptions](http://durandaljs.com/documentation/Understanding-the-Samples/) and peruse the module reference docs.
