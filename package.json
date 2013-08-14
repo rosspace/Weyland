@@ -1,6 +1,6 @@
 {
     "name" : "weyland",
-    "version" : "0.1.0",
+    "version" : "1.0.0-pre",
     "description":"Durandal's build optimizer.",
     "keywords":["durandal", "build", "require", "spa", "amd"],
     "preferGlobal": true,
