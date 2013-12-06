@@ -1,5 +1,14 @@
 # Weyland
 
+<h1 style="text-align: center">Help Kickstart Durandal & Weyland in 2014!</h1>
+<div style="text-align: center">
+View it on <a href="http://www.kickstarter.com/projects/eisenbergeffect/durandal-2014">Kickstarter</a> or <a href="http://www.crowdfundfusion.com">CrowdFundFusion</a>.
+</div>
+
+<div style="text-align: center">
+<iframe frameborder="0" height="380" scrolling="no" src="http://www.kickstarter.com/projects/eisenbergeffect/durandal-2014/widget/card.html" width="220"></iframe>
+</div>
+
 Weyland is Durandal's build optimizer.
 
 ## Features
